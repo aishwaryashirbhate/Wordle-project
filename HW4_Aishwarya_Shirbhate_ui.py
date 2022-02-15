@@ -155,6 +155,7 @@ def game_stats(history):
     won_games = history["won"]
     total_games = won_games + lost_games
     win_prec = (won_games / total_games) * 100
+
     print("total no of games played are:", total_games)     # displays total number of games played
     print("winning percentage are:", win_prec)              # displays winning percentage
 
