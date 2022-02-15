@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5488618a-a568-48c9-b8c0-af19009eeb9c" name="Changes" comment="Updates code files for HW3&#10;1. wordle.py - Takes user's input and returns true if the wor matches. This function prints the clue on the console.&#10;&#10;2.ui.py - main file&#10;&#10;3.dictionary.py - checks if word exists in word_list.txt and picks random number from list.&#10;&#10;4. word_list.txt" />
+    <list default="true" id="5488618a-a568-48c9-b8c0-af19009eeb9c" name="Changes" comment="Update file names to resolve conflicts on pull request">
+      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_wordle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3_Aishwarya_Shirbhate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3_Aishwarya_Shirbhate_ui.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +84,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Dev" />
+                        <option value="Update" />
                       </list>
                     </value>
                   </entry>
