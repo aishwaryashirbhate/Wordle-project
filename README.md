@@ -1,8 +1,8 @@
 # Wordle-project
 # INSTRUCTIONS:
-1]Guess a five letter word in 6 guess attempts__ 
-2]Input a word to guess __
-3]Green indicates correct letter at correct position  __
+1]Guess a five letter word in 6 guess attempts<br>
+2]Input a word to guess <br>
+3]Green indicates correct letter at correct position <br>
 4]Yellow indicates correct letter in wrong position__
 5]__ indicates wrong letter__
 
