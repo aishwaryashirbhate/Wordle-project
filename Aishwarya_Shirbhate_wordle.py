@@ -1,6 +1,7 @@
 # Homework Assignment 02
 # from Aishwarya Shirbhate 20005242
 # pseudocode #
+
 # Define a function with given word and guessed word as input
 # In word guesser function {
 # initialise position of letter in word a 0 and clue as 0
