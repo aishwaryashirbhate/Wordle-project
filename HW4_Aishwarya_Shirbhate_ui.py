@@ -154,11 +154,11 @@ def game_stats(history):
     lost_games = history["loss"]
     won_games = history["won"]
     total_games = won_games + lost_games
-    win_prec = (won_games / total_games) * 100
-
-    print("total no of games played are:", total_games)     # displays total number of games played
-    print("winning percentage are:", win_prec)              # displays winning percentage
-
+    print("total no of games played are:", total_games)  # displays total number of games played
+    if total_games != 0:
+        win_prec = (won_games / total_games) * 100
+        print("winning percentage are:", win_prec)              # displays winning percentage
+    print("winning percentage are:", 0)  # displays winning percentage
 
 def wordle():
     """
