@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Update" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +78,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Dev" />
+                        <option value="Update" />
                       </list>
                     </value>
                   </entry>
@@ -94,5 +94,9 @@
     <MESSAGE value="Changed File Name" />
     <MESSAGE value="Updates code files for HW3&#10;1. wordle.py - Takes user's input and returns true if the wor matches. This function prints the clue on the console.&#10;&#10;2.ui.py - main file&#10;&#10;3.dictionary.py - checks if word exists in word_list.txt and picks random number from list.&#10;&#10;4. word_list.txt" />
     <option name="LAST_COMMIT_MESSAGE" value="Updates code files for HW3&#10;1. wordle.py - Takes user's input and returns true if the wor matches. This function prints the clue on the console.&#10;&#10;2.ui.py - main file&#10;&#10;3.dictionary.py - checks if word exists in word_list.txt and picks random number from list.&#10;&#10;4. word_list.txt" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Wordle_project$HW3_Aishwarya_Shirbhate_ui.coverage" NAME="HW3_Aishwarya_Shirbhate_ui Coverage Results" MODIFIED="1644890158602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Wordle_project$HW4_Aishwarya_Shirbhate_ui.coverage" NAME="HW4_Aishwarya_Shirbhate_ui Coverage Results" MODIFIED="1644890140395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
