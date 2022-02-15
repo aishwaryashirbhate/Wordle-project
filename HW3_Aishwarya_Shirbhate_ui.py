@@ -37,8 +37,8 @@
 # end }
 # call wordle function
 
-import HW03_Aishwarya_Shirbhate_dictionary as Module_dictionary
-import HW03_Aishwarya_Shirbhate_wordle as Module_wordle
+import HW3_Aishwarya_Shirbhate_dictionary as Module_dictionary
+import HW3_Aishwarya_Shirbhate_wordle as Module_wordle
 
 print("*** WORDLE GAME ***")
 
