@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5488618a-a568-48c9-b8c0-af19009eeb9c" name="Changes" comment="Update file names to resolve conflicts on pull request">
-      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_wordle.py" afterDir="false" />
+    <list default="true" id="5488618a-a568-48c9-b8c0-af19009eeb9c" name="Changes" comment="Update Code to keep track of game statistics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3_Aishwarya_Shirbhate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3_Aishwarya_Shirbhate_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4_Aishwarya_Shirbhate_ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644888119441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Code to keep track of game statistics">
+      <created>1644889285217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644889285217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed File Name" />
     <MESSAGE value="Updates code files for HW3&#10;1. wordle.py - Takes user's input and returns true if the wor matches. This function prints the clue on the console.&#10;&#10;2.ui.py - main file&#10;&#10;3.dictionary.py - checks if word exists in word_list.txt and picks random number from list.&#10;&#10;4. word_list.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates code files for HW3&#10;1. wordle.py - Takes user's input and returns true if the wor matches. This function prints the clue on the console.&#10;&#10;2.ui.py - main file&#10;&#10;3.dictionary.py - checks if word exists in word_list.txt and picks random number from list.&#10;&#10;4. word_list.txt" />
+    <MESSAGE value="Update Code to keep track of game statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Code to keep track of game statistics" />
   </component>
 </project>
