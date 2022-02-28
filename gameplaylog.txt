@@ -1,0 +1,1294 @@
+
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ maybe
+actual answer:
+maybe
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ fluid
+actual answer:
+fluid
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ owner
+actual answer:
+owner
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ story
+actual answer:
+story
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ music
+actual answer:
+music
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ pound
+actual answer:
+pound
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ sugar
+actual answer:
+sugar
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ order
+actual answer:
+order
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ fleet
+actual answer:
+fleet
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ order
+actual answer:
+order
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+5
+win percentage: 
+100.0
+user inputs:
+ sugar
+actual answer:
+sugar
+number of games won is: 
+{"1": 5, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ fleet
+actual answer:
+fleet
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ order
+actual answer:
+order
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+5
+win percentage: 
+100.0
+user inputs:
+ sugar
+actual answer:
+sugar
+number of games won is: 
+{"1": 5, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ fleet
+actual answer:
+fleet
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ fleet
+actual answer:
+fleet
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ sugar
+actual answer:
+sugar
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+5
+win percentage: 
+100.0
+user inputs:
+ order
+actual answer:
+order
+number of games won is: 
+{"1": 5, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ order
+actual answer:
+order
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ aaron
+actual answer:
+aaron
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ fleet
+actual answer:
+fleet
+number of games won is: 
+{"1": 3, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+4
+win percentage: 
+100.0
+user inputs:
+ sugar
+actual answer:
+sugar
+number of games won is: 
+{"1": 4, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+5
+win percentage: 
+100.0
+user inputs:
+ honey
+actual answer:
+honey
+number of games won is: 
+{"1": 5, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ shots
+actual answer:
+shots
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+100.0
+user inputs:
+ pearl
+actual answer:
+pearl
+number of games won is: 
+{"1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+100.0
+user inputs:
+ honey surge
+actual answer:
+surge
+number of games won is: 
+{"1": 2, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+****************************************************************
+
+Total games played 
+0
+win percentage 
+0
+user inputs:
+
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 1, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ small balls
+actual answer:
+balls
+number of games won is: 
+{"1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+100.0
+user inputs:
+ balls
+actual answer:
+balls
+number of games won is: 
+{"1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ stats human viral along among small
+actual answer:
+honey
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+50.0
+user inputs:
+ stats human viral
+actual answer:
+viral
+number of games won is: 
+{"1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+3
+win percentage: 
+66.66666666666666
+user inputs:
+ along among small
+actual answer:
+small
+number of games won is: 
+{"1": 0, "2": 0, "3": 2, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+1
+win percentage: 
+0.0
+user inputs:
+ sunny honey water sugar along among
+actual answer:
+tooth
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
+****************************************************************
+Total games played: 
+2
+win percentage: 
+0.0
+user inputs:
+ honey sugar water fleet fibre among
+actual answer:
+paths
+number of games won is: 
+{"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0}
