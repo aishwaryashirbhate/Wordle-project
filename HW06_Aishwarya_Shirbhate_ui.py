@@ -40,9 +40,7 @@
 #       update history["loss"] by 1
 #         print "Guess Distribution is:" and number_of_wins
 #         call game_stats(history) function
-# open gameplaylog.txt
-# write user input, no of wins and answer
-# close the file
+# log user input, no of wins and answer
 # return check, number_of_wins, history
 #  end
 # }
@@ -54,9 +52,8 @@
 #   print "total no of games won are:" and won_games
 #   print "total no of games lost are:" and lost_games
 #   print "winning percentage are:" and win_prec
-#   open gameplaylog.txt file
-#   write total games and win perc
-#   close the file
+#   log total games and win perc
+
 
 # define main wordle function
 # in the main function {
@@ -77,13 +74,15 @@
 # end }
 # call wordle function
 
-import HW06_Aishwarya_Shirbhate_dictionary as Module_dictionary
-import HW06_Aishwarya_Shirbhate_wordle as Module_wordle
+import HW06_Aishwarya_Shirbhate_dictionary_final as Module_dictionary
+import HW06_Aishwarya_Shirbhate_wordle_final as Module_wordle
 import json
 import sys
+import logging
 
 print("*** WORDLE GAME ***")
 
+logging.basicConfig(filename='gameplay.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 def input_check(check, answer, number_of_wins, history):
     """
@@ -96,79 +95,77 @@ def input_check(check, answer, number_of_wins, history):
     :return number_of_wins
     :return history
     """
-    symbol_list = {'~', ':', "'", '+', '[', '\\', '@', '^', '{', '%', '(', '-', '"', '*', '|', ',', '&', '<', '`',
-                   '}',
-                   '.', '_', '=', ']', '!', '>', ';', '?', '#', '$', ')', '/', ' ', '1', '2', '3', '4', '5', '6',
-                   '7',
-                   '8',
-                   '9',
-                   '0'}  # symbol list that needs to be excluded
-    # array for user input
-    user_inputs = []
-    maximum_guesses = 0
-    correct_guess = False
+    try:
+        symbol_list = {'~', ':', "'", '+', '[', '\\', '@', '^', '{', '%', '(', '-', '"', '*', '|', ',', '&', '<', '`',
+                       '}',
+                       '.', '_', '=', ']', '!', '>', ';', '?', '#', '$', ')', '/', ' ', '1', '2', '3', '4', '5', '6',
+                       '7',
+                       '8',
+                       '9',
+                       '0'}  # symbol list that needs to be excluded
+        # array for user input
+        user_inputs = []
+        maximum_guesses = 0
+        correct_guess = False
 
-    # while loop for maximum guesses
-    while maximum_guesses < 6 and not correct_guess:
-        guess = input("Please enter a 5 letter word and press Enter:")
-        if len(guess) == 0:
-            print("You have now ended the game\n Thank you for playing Wordle\n ")
-            game_stats(history)
-            for i in history:
-                history[i] = 0
-            check = "exit"
-            break
-        symbol_check = [ele for ele in symbol_list if (ele in guess)]
-        bool_symbolcheck = bool(symbol_check)
-        if len(guess) == 5:
-            if bool_symbolcheck is False:
-                if guess not in user_inputs:
-                    if guess in Module_dictionary.func_dict():
-                        user_inputs.append(guess)
-                        maximum_guesses += 1
-                        lower_guess = guess.lower()
-                        correct_guess = Module_wordle.wordGuesser(answer, lower_guess)[0]  # calling above function
+        # while loop for maximum guesses
+        while maximum_guesses < 6 and not correct_guess:
+            guess = input("Please enter a 5 letter word and press Enter:")
+            if len(guess) == 0:
+                print("You have now ended the game\n Thank you for playing Wordle\n ")
+                game_stats(history)
+                for i in history:
+                    history[i] = 0
+                check = "exit"
+                break
+            symbol_check = [ele for ele in symbol_list if (ele in guess)]
+            bool_symbolcheck = bool(symbol_check)
+            if len(guess) == 5:
+                if bool_symbolcheck is False:
+                    if guess not in user_inputs:
+                        if guess in Module_dictionary.func_dict():
+                            user_inputs.append(guess)
+                            maximum_guesses += 1
+                            lower_guess = guess.lower()
+                            correct_guess = Module_wordle.wordGuesser(answer, lower_guess)[0]  # calling above function
+                        else:
+                            print("please provide a valid dictionary word")
                     else:
-                        print("please provide a valid dictionary word")
+                        print("Provided word is used previously. Please enter a new word")
                 else:
-                    print("Provided word is used previously. Please enter a new word")
+                    print("Input word contains symbols/characters. Please input words with alphabets only")
             else:
-                print("Input word contains symbols/characters. Please input words with alphabets only")
+                print("Input word length needs to be 5 alphabets long")
+
+        if correct_guess:
+            print("Woah! You guessed it right in attempt", maximum_guesses)
+            if maximum_guesses in number_of_wins:
+                number_of_wins[maximum_guesses] += 1
+            else:
+                number_of_wins[maximum_guesses] = 1
+            history["won"] += 1
+            print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
+            game_stats(history)
+
+        elif len(guess) == 0:
+            print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
+            print("You have now ended the game\nThank you for playing Wordle\n ")
+
         else:
-            print("Input word length needs to be 5 alphabets long")
+            print("You have used up your guesses")
+            print("The correct answer is", answer)
+            history["loss"] += 1
+            print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
+            game_stats(history)
 
-    if correct_guess:
-        print("Woah! You guessed it right in attempt", maximum_guesses)
-        if maximum_guesses in number_of_wins:
-            number_of_wins[maximum_guesses] += 1
-        else:
-            number_of_wins[maximum_guesses] = 1
-        history["won"] += 1
-        print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
-        game_stats(history)
+        logging.info("Input words: "+str(user_inputs))
+        logging.info("\nactual answer:\n" + str(answer))
+        logging.info("\nnumber of games won is: \n")
+        logging.info(str(number_of_wins))
 
-    elif len(guess) == 0:
-        print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
-        print("You have now ended the game\nThank you for playing Wordle\n ")
-
-    else:
-        print("You have used up your guesses")
-        print("The correct answer is", answer)
-        history["loss"] += 1
-        print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
-        game_stats(history)
-
-    textfile = open("gameplaylog.txt", "a")
-    textfile.write("\nuser inputs:\n")
-    for element in user_inputs:
-        textfile.write(" " + element)
-    textfile.write("\nactual answer:\n" + answer)
-    textfile.write("\nnumber of games won is: \n")
-    textfile.write(json.dumps(number_of_wins))
-    textfile.close()
-
-    return [check, number_of_wins, history]
-
+        return [check, number_of_wins, history]
+    except:
+        print("Error:", sys.exc_info(), " in input check function")
 
 
 def game_stats(history):
@@ -176,51 +173,50 @@ def game_stats(history):
     displays statistics for current session of the game
    :param history:
     """
-
-    lost_games = history["loss"]
-    won_games = history["won"]
-    total_games = won_games + lost_games
-    print("total no of games played are:", total_games)  # displays total number of games played
-    if total_games != 0:
-        win_prec = (won_games / total_games) * 100
-        print("winning percentage are:", win_prec)  # displays winning percentage
-        textfile = open("gameplaylog.txt", "a")
-        textfile.write("\n****************************************************************\n")
-        textfile.write("Total games played: \n" + str(total_games))
-        textfile.write("\nwin percentage: \n" + str(win_prec))
-        textfile.close()
-        return total_games, win_prec
-    else:
-        win_prec = 0
-        print("winning percentage are:", 0)  # displays winning percentage
-        textfile = open("gameplaylog.txt", "a")
-        textfile.write("\n****************************************************************\n")
-        textfile.write("\nTotal games played \n" + str(total_games))
-        textfile.write("\nwin percentage \n" + str(win_prec))
-        textfile.close()
-        return total_games, win_prec
-
+    try:
+        lost_games = history["loss"]
+        won_games = history["won"]
+        total_games = won_games + lost_games
+        print("total no of games played are:", total_games)  # displays total number of games played
+        if total_games != 0:
+            win_prec = (won_games / total_games) * 100
+            print("winning percentage are:", win_prec)  # displays winning percentage
+            logging.info("\n****************************************************************\n")
+            logging.info("Total games played: " + str(total_games))
+            logging.info("\nwin percentage: " + str(win_prec))
+            return total_games, win_prec
+        else:
+            win_prec = 0
+            print("winning percentage are:", 0)  # displays winning percentage
+            textfile = open("gameplaylog.txt", "a")
+            logging.info("\n****************************************************************\n")
+            logging.info("Total games played: " + str(total_games))
+            logging.info("\nwin percentage: " + str(win_prec))
+            return total_games, win_prec
+    except:
+        print("Error:", sys.exc_info(), " in game stats function")
 
 def wordle():
     """
     Checks for check value and executes wordle game by calling input_check function.
     """
-
-    check = "play"
-    number_of_wins = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
-    history = {"won": 0, "loss": 0}
-    valid_words = []
-    while check == "play":
-        answer = Module_dictionary.func_englishword()  # assign english word to answer
-        if type(answer) == 'NoneType':
-            raise Exception("not valid word")           # raise exception if file is not present
-        if answer not in valid_words:
-            valid_words.append(answer)
-            check, number_of_wins, history = input_check(check, answer, number_of_wins, history)
-            print('*' * 100)
-        if len(valid_words) == 1379:                    # if all words are used reset the word list
-            valid_words = []
-
+    try:
+        check = "play"
+        number_of_wins = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+        history = {"won": 0, "loss": 0}
+        valid_words = []
+        while check == "play":
+            answer = Module_dictionary.func_englishword()  # assign english word to answer
+            if type(answer) == 'NoneType':
+                raise Exception("not valid word")           # raise exception if file is not present
+            if answer not in valid_words:
+                valid_words.append(answer)
+                check, number_of_wins, history = input_check(check, answer, number_of_wins, history)
+                print('*' * 100)
+            if len(valid_words) == 1379:                    # if all words are used reset the word list
+                valid_words = []
+    except:
+        print("Error:", sys.exc_info(), " in wordle function")
 
 if __name__ == '__main__':
     wordle()
