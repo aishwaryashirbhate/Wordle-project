@@ -1,0 +1,56 @@
+
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['aaron', 'sugar', 'honey', 'water', 'along', 'among']
+root - INFO - 
+actual answer:
+moses
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['fibre', 'fleet', 'sonic', 'along', 'among', 'human']
+root - INFO - 
+actual answer:
+saves
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['honey', 'water', 'sugar', 'viral', 'along', 'among']
+root - INFO - 
+actual answer:
+forty
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+world
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
