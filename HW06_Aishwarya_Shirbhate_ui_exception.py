@@ -40,9 +40,7 @@
 #       update history["loss"] by 1
 #         print "Guess Distribution is:" and number_of_wins
 #         call game_stats(history) function
-# open gameplaylog.txt
-# write user input, no of wins and answer
-# close the file
+# log user input, no of wins and answer
 # return check, number_of_wins, history
 #  end
 # }
@@ -54,9 +52,8 @@
 #   print "total no of games won are:" and won_games
 #   print "total no of games lost are:" and lost_games
 #   print "winning percentage are:" and win_prec
-#   open gameplaylog.txt file
-#   write total games and win perc
-#   close the file
+#   log total games and win perc
+
 
 # define main wordle function
 # in the main function {
@@ -77,13 +74,15 @@
 # end }
 # call wordle function
 
-import HW06_Aishwarya_Shirbhate_dictionary_exception as Module_dictionary
-import HW06_Aishwarya_Shirbhate_wordle_exception as Module_wordle
+import HW06_Aishwarya_Shirbhate_dictionary_final as Module_dictionary
+import HW06_Aishwarya_Shirbhate_wordle_final as Module_wordle
 import json
 import sys
+import logging
 
 print("*** WORDLE GAME ***")
 
+logging.basicConfig(filename='gameplay.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 def input_check(check, answer, number_of_wins, history):
     """
@@ -159,18 +158,14 @@ def input_check(check, answer, number_of_wins, history):
             print("Guess Distribution is:", number_of_wins)  # displays guess distribution of the game
             game_stats(history)
 
-        textfile = open("gameplaylog.txt", "a")
-        textfile.write("\nuser inputs:\n")
-        for element in user_inputs:
-            textfile.write(" " + element)
-        textfile.write("\nactual answer:\n" + answer)
-        textfile.write("\nnumber of games won is: \n")
-        textfile.write(json.dumps(number_of_wins))
-        textfile.close()
+        logging.info("Input words: "+str(user_inputs))
+        logging.info("\nactual answer:\n" + str(answer))
+        logging.info("\nnumber of games won is: \n")
+        logging.info(str(number_of_wins))
 
         return [check, number_of_wins, history]
     except:
-        print("Error:", sys.exc_info()[0], " in input check function")
+        print("Error:", sys.exc_info(), " in input check function")
 
 
 def game_stats(history):
@@ -186,23 +181,20 @@ def game_stats(history):
         if total_games != 0:
             win_prec = (won_games / total_games) * 100
             print("winning percentage are:", win_prec)  # displays winning percentage
-            textfile = open("gameplaylog.txt", "a")
-            textfile.write("\n****************************************************************\n")
-            textfile.write("Total games played: \n" + str(total_games))
-            textfile.write("\nwin percentage: \n" + str(win_prec))
-            textfile.close()
+            logging.info("\n****************************************************************\n")
+            logging.info("Total games played: " + str(total_games))
+            logging.info("\nwin percentage: " + str(win_prec))
             return total_games, win_prec
         else:
             win_prec = 0
             print("winning percentage are:", 0)  # displays winning percentage
             textfile = open("gameplaylog.txt", "a")
-            textfile.write("\n****************************************************************\n")
-            textfile.write("\nTotal games played \n" + str(total_games))
-            textfile.write("\nwin percentage \n" + str(win_prec))
-            textfile.close()
+            logging.info("\n****************************************************************\n")
+            logging.info("Total games played: " + str(total_games))
+            logging.info("\nwin percentage: " + str(win_prec))
             return total_games, win_prec
     except:
-        print("Error:", sys.exc_info()[0], " in game stats function")
+        print("Error:", sys.exc_info(), " in game stats function")
 
 def wordle():
     """
@@ -224,7 +216,7 @@ def wordle():
             if len(valid_words) == 1379:                    # if all words are used reset the word list
                 valid_words = []
     except:
-        print("Error:", sys.exc_info()[0], " in wordle function")
+        print("Error:", sys.exc_info(), " in wordle function")
 
 if __name__ == '__main__':
     wordle()
